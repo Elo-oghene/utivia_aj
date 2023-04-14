@@ -1,0 +1,23 @@
+.globalbtn{
+    background-color: #FBAF1B;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 15px;
+    color: white;
+
+}
+
+.globalbtn.primary {
+    background-color: white;
+    color:black;
+    /* border: 1px solid black; */
+}
+
+.globalbtn.true{
+    border: 1px solid  blue;
+}
+.globalbtn.false{
+    border: 0px solid black;
+}

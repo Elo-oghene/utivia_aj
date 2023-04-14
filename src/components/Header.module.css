@@ -1,0 +1,79 @@
+.navBar{
+   
+    height: 50px;
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hold_navigation{
+    width: 90%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+  
+}
+.logo{
+    height: 100%;
+    width: auto;
+    font-size: 34px;
+    display: flex;
+    color:#050794;
+    font-weight: 700;
+    align-items: center;
+}
+.navlinks{
+    display: flex;
+    height: 100%;
+    align-items: center;
+    width: 280px;
+    
+    justify-content: space-around;
+}
+@media screen and (max-width:800px) {
+.navlinks{
+    display: none;
+}
+}
+.nav_link{
+    font-weight: 400;
+}
+.mybtn{
+    width: 210px;
+    height: 100%;
+    align-items: center;
+    gap:1rem;
+    display: flex;
+}
+
+@media screen and (max-width:600px) {
+    .mybtn{
+        display: none;;
+    }
+    
+}
+.iconHolder {
+    height: 100%;
+    width: 50px;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    
+}
+@media screen and (max-width:600px) {
+    .iconHolder{
+      display: flex;
+    }
+}
+
+.firsticonHolder{
+    height: 100%;
+    width: 50px;
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
